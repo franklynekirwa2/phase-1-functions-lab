@@ -11,6 +11,7 @@
     return feetaway;
 }
 function distanceTravelledInFeet(start_block, end_block){
+
    let blocks_travelled = Math.abs(end_block - start_block);
     let feet_travelled = blocks_travelled * 264;
     return feet_travelled;
